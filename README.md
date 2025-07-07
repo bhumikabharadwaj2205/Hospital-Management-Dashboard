@@ -55,7 +55,7 @@ A focused view for analyzing any specific month.
 - Demographics filtered for the selected month.
 - Hourly heatmap for operational insights.
 
-![Executive Summary](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/executive_summary.png?raw=true)
+![Monthly View](Monthly View.png)
 
 
 ---
