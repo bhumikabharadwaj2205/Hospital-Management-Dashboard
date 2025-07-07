@@ -74,7 +74,7 @@ An overall, high-level summary of emergency department performance across all av
 
 ---
 
-## 📘 Key DAX Insight: Filed Report Percentage
+## 📘 Key DAX Insight: % of Patients Seen Within 30 Minutes
 
 As part of building this dashboard, I created a DAX measure to track how effectively the ER meets its triage benchmark.
 ---
@@ -82,7 +82,7 @@ As part of building this dashboard, I created a DAX measure to track how effecti
 ### 📌 DAX Formula
 
 
-### 🖼️ Screenshot: Filed Report Percentage KPI
+### 🖼️ Screenshot: % of Patients Seen Within 30 Minutes
 
 ![C](https://github.com/bhumikabharadwaj2205/Hospital-Management-Dashboard/blob/main/Consolidated%20View.png)
 
