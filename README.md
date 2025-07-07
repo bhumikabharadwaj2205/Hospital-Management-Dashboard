@@ -70,7 +70,7 @@ An overall, high-level summary of emergency department performance across all av
 - Age group, gender, and race demographics.
 - A heatmap of arrivals by day and hour.
 
-![Client Portfolio](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/client_portfolio.png?raw=true)
+![Consolidated View](https://github.com/bhumikabharadwaj2205/Hospital-Management-Dashboard/blob/main/Consolidated%20View.png)
 
 ---
 
@@ -84,7 +84,7 @@ As part of building this dashboard, I created a DAX measure to track how effecti
 
 ### 🖼️ Screenshot: Filed Report Percentage KPI
 
-![Filed Report Percentage KPI](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/filed_report_percentage.png?raw=true)
+![C](https://github.com/bhumikabharadwaj2205/Hospital-Management-Dashboard/blob/main/Consolidated%20View.png)
 
 
 ### 🧮 What the Formula Does
