@@ -21,6 +21,7 @@ Hospitals often struggle to maintain efficient ER operations due to:
 - Inconsistent data on patient satisfaction
 
 This dashboard addresses these challenges with a centralized, interactive reporting solution that helps improve service delivery, resource planning, and patient experience.
+
 ---
 ## 📊 Key KPIs (Important Numbers We Track)
 
