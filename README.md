@@ -1,4 +1,6 @@
-# 🧾Hospital Emergency Dashboard using Power BI, Power Query, DAX> A project to modernize emergency department reporting and patient flow analytics using Power BI.
+# 🧾Hospital Emergency Dashboard using Power BI, Power Query, DAX
+
+> A project to modernize emergency department reporting and patient flow analytics using Power BI.
 
 ---
 
