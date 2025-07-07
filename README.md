@@ -20,67 +20,64 @@ Hospitals often struggle to maintain efficient ER operations due to:
 - Inconsistent data on patient satisfaction
 
 This dashboard addresses these challenges with a centralized, interactive reporting solution that helps improve service delivery, resource planning, and patient experience.
+---
 ## 📊 Key KPIs (Important Numbers We Track)
 
-These KPIs (Key Performance Indicators) help us understand how well the tax reporting process is working, and where we need to improve.
+These KPIs help monitor operational performance and identify improvement areas.
 
 | KPI Name                | What It Tells Us |
 |-------------------------|------------------|
-| **Filed Report %**      | How many clients have submitted their tax reports on time. |
-| **Average Compliance Score** | A score (from 0 to 100) that shows how well clients are following tax rules. |
-| **Automation Usage %**  | How many cases are handled by automated tools instead of manually. |
-| **Late Filing %**       | The percentage of reports that were submitted after the deadline. |
-| **High-Risk Clients**   | How many clients are considered risky because of errors or missing reports. |
-| **Average Processing Time** | How long it takes (on average) to process a report. |
+| **Number of Patients**      | Total volume of ER patients in the selected period. |
+| **Average Wait Timee** | Average time patients waited before being seen. |
+| **Patient Satisfaction Score**  | How satisfied patients were with their ER experience. |
+| **Number of Patients Referred**       | How many patients were referred to other departments or specialists. |
+| **% of Patients Seen Within 30 Minutes**   | How quickly patients were triaged and treated compared to the target benchmark. |
+| **Admission Status** | The split between admitted vs. non-admitted cases. |
 
 🧠 **Why These Matter Together**:
-- They help spot problems early (like late reports or risky clients)
-- Show if automation is helping the team work faster
-- Make it easier to decide where to focus attention (like which clients or regions need help)
-- Help the company stay compliant and avoid penalties
+- They help pinpoint operational bottlenecks (long wait times, poor satisfaction).
+- Identify peak hours and days to improve staffing.
+- Show progress towards compliance targets (e.g., seeing patients within 30 minutes).
+- Support decisions about resource allocation and workflow changes.
 
 ---
 
 ## 🖼️ Dashboard Snapshots
 
-### 📄 1. Executive Summary
+### 📄 1. Monthly View
 
-High-level KPIs such as compliance score, filing rate, automation usage, and high-risk clients.
+A focused view for analyzing any specific month.
+
+✅ Highlights:
+
+- Daily trends in patient counts, wait times, and satisfaction.
+- Admission and referral metrics.
+- Demographics filtered for the selected month.
+- Hourly heatmap for operational insights.
 
 ![Executive Summary](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/executive_summary.png?raw=true)
 
 
 ---
 
-### 📄 2. FATCA Client Portfolio
+### 📄 2. Consolidated View
 
-FATCA vs non-FATCA breakdown, income vs compliance trends, asset diversity by jurisdiction.
+An overall, high-level summary of emergency department performance across all available data.
+
+✅ Highlights:
+
+- Monthly trends in patient volume, wait time, and satisfaction.
+- Total counts of admitted and referred patients.
+- Age group, gender, and race demographics.
+- A heatmap of arrivals by day and hour.
 
 ![Client Portfolio](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/client_portfolio.png?raw=true)
 
 ---
 
-### 📄 3. Compliance & Risk Analysis
-
-Heatmaps and scatter plots showing late filings, risk hotspots, and jurisdiction performance.
-
-![Risk Page](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/compilance_risk.png?raw=true)
-
-
----
-
-### 📄 4. Analyst Performance
-
-Highlights top analysts based on speed, accuracy, and automation usage.
-
-![Analyst Page](https://github.com/bhumikabharadwaj2205/-Operational-Tax-and-wealth-management/blob/main/tax%20dashboard%20images/analyst_performance.png?raw=true)
-
----
-
 ## 📘 Key DAX Insight: Filed Report Percentage
 
-As part of building this dashboard, I came across an impactful DAX function that helped me measure the overall effectiveness of tax reporting: **Filed Report Percentage**. This became one of the most important KPIs in the project.
-
+As part of building this dashboard, I created a DAX measure to track how effectively the ER meets its triage benchmark.
 ---
 
 ### 📌 DAX Formula
