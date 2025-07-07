@@ -84,18 +84,14 @@ As part of building this dashboard, I created a DAX measure to track how effecti
 
 ### 🖼️ Screenshot: % of Patients Seen Within 30 Minutes
 
-![C](https://github.com/bhumikabharadwaj2205/Hospital-Management-Dashboard/blob/main/Consolidated%20View.png)
+![C](https://github.com/bhumikabharadwaj2205/Hospital-Management-Dashboard/blob/main/Formula.png))
 
 
 ### 🧮 What the Formula Does
 
-This DAX formula calculates the **percentage of clients who have filed their tax reports**.
-
-- `COUNTROWS(ClientData)` counts all the clients in the dataset.
-- `CALCULATE(..., ClientData[Report Status] = "Filed")` filters only those records where the report status is marked as "Filed".
-- `DIVIDE` divides the number of filed reports by the total number of clients, and handles any divide-by-zero errors safely.
+- Numerator: Counts patients whose wait time was 30 minutes or less.
+- Denominator: Counts all patients.
+- DIVIDE: Returns the percentage safely, avoiding divide-by-zero errors.
 
 📊 **For example**:  
-If 3,500 out of 5,000 clients submitted their reports:
-
-
+If 4,500 out of 7,500 patients were seen within 30 minutes, the KPI would show 60%.
