@@ -8,6 +8,7 @@
 
 This project demonstrates how data visualization and analytics can optimize emergency room operations and improve patient care.
 Using Power BI, the dashboard consolidates patient data, enabling stakeholders to monitor admissions, wait times, referrals, and satisfaction, all in real time.
+
 ---
 ## 📌 Business Problem
 
